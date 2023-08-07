@@ -11,6 +11,6 @@ _input.oninput = addStars;
 function addStars() {
     div.innerText = '';
     for (let i = 0; i < _input.value; i++) {
-        div.append('0');
+        div.append('⭐');
     }
 }
