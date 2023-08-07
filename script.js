@@ -1,6 +1,6 @@
 const _input = document.createElement('input');
 _input.type = 'range';
-_input.max = 10;
+_input.max = 5;
 _input.value = 0;
 document.body.appendChild(_input);
 const div = document.createElement('div');
